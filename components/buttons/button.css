@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body { font-family: 'Open Sans', sans-serif; }
+
+.button {
+  display: inline-block;
+  background: transparent;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #66CC99;
+  border-radius: 25px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #66CC99;
+}
+
+.btn-link {
+	text-decoration: none;
+	color:  #66CC99;
+}
+
+.button-sm {
+	font-size: 0.8em;
+	padding: 10px;
+}
+
+.button-md {
+	font-size: 1.2em;
+	padding: 13px;
+}
+
+.button-lg {
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+.button:hover {
+	color: #E26A6A;
+	border-color: #E26A6A;
+}

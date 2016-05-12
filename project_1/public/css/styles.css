@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300italic,400italic,300);
+* {
+	margin: 0;
+	padidng: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+.logo {
+	display: inline-block;
+	padding: 5px 50px;
+	font-size: 2.5em;
+}
+
+.logo a {
+	font-weight: 300;
+	color: #000;
+	text-decoration: none;
+}
+
+nav {
+	padding: 20px 50px;
+	display: inline-block;
+	float: right;
+}
+
+
+.nav-container li {
+	display: inline-block;
+	margin-right: 10px;
+	list-style-type: none;
+}
+
+.nav-container li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.hero {
+	width: 100vw;
+	height: 100vh;
+	background: url(../imgs/hero.png) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -o-flex
+	align-items: center;
+	justify-content: center;
+}
+
+.inner {
+	padding: 300px 0;
+	color: #fff;
+	width: 900px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.name {
+	font-size: 3em;
+	font-weight: 200;
+}
+
+.career-path {
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.quote {
+	margin-top: 30px;
+	font-size: 1.5em;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.quote_author {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+.main-content {
+	text-align: center;
+}
+
+.section-heading {
+	margin: 200px auto;
+	position: relative;
+	padding-top: 150px;
+	width: 200px;
+
+}
+
+.section-heading h2 {
+	font-size: 3em;
+	font-weight: 200;
+}
+
+.section-highlight {
+	display: block;
+	height: 2px;
+	width: 50px;
+	background-color: #36eeff;
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+}
+
+.projects-listing {
+	width: 1000px;
+	margin: 50px auto;	
+}
+
+.project {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.project:last-of-type {
+	margin-right: 0;
+}
+
+.project-1 a img {
+	height: 230px;
+}
+
+.project-title {
+	margin-top: 30px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+
+/* Projects */
+
+.project-hero {
+	height: 460px;
+	background: url(../imgs/project-hero.png) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.project-hero .inner {
+	padding: 200px 0;
+}
+
+.project-intro {
+	margin: 200px auto;
+	width: 800px;
+}
+
+.project-intro p {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.project-info {
+	height: 700px;
+}
+
+.project-img {
+	height: 470px;
+}
