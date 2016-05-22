@@ -83,6 +83,7 @@ nav {
 	border: none;
 	outline: none;
 	font-size: 1.5em;
+	cursor: pointer;
 }
 
 .search {
@@ -162,7 +163,6 @@ nav {
 	padding-top: 85px;
 	float: right;
 	width: 100%;
-	height: 1000px;
 	text-align: center;
 }
 
@@ -172,6 +172,7 @@ nav {
 	color: #adadad;
 	font-size: 3em;
 	outline: none;
+	cursor: pointer;
 }
 
 
@@ -279,6 +280,7 @@ nav {
 	outline: none;
 	font-size: 1.3em;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .bookmark {
