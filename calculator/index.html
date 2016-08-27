@@ -6,45 +6,46 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-	<div class="container">
-		<header>
-			<h1 class="logo"><a href="#"><span class="logo-bold">Calc</span>.it</a></h1>
-		</header>
-		<div class="main">
-			<div class="calculator">
-				<div class="display">
-					<input type="text" class="input-display">
-					<div class="op-btns">
-						<button class="op-btn del">Del</button>
-						<button class="op-btn clear">C</button>
-					</div>
-				</div>
-				<div class="numbers">
-					<button class="num">1</button>
-					<button class="num">2</button>
-					<button class="num">3</button>
-					<button class="num">4</button>
+<div class="container">
+  <header>
+    <h1 class="logo"><a href="#"><span class="logo-bold">Calc</span>.it</a></h1>
+  </header>
+  <div class="main">
+    <div class="calculator">
+      <div class="display">
+        <input type="text" class="input-display" id="display">
+        <div class="op-btns">
+          <button class="op-btn del" id="del">Del</button>
+          <button class="op-btn clear" id="clear">C</button>
+        </div>
+      </div>
+      <div class="numbers">
+        <button class="num" value="1">1</button>
+        <button class="num" value="2">2</button>
+        <button class="num" value="3">3</button>
+        <button class="num" value="4">4</button>
 
-					<button class="num">5</button>
-					<button class="num">6</button>
-					<button class="num">7</button>
-					<button class="num">8</button>
+        <button class="num" value="5">5</button>
+        <button class="num" value="6">6</button>
+        <button class="num" value="7">7</button>
+        <button class="num" value="8">8</button>
 
-					<button class="num">9</button>
-					<button class="num">0</button>
-					<button class="num dec">.</button>
-					<button class="num">=</button>
-				</div>
+        <button class="num" value="9">9</button>
+        <button class="num" value="0">0</button>
+        <button class="num dec" value=".">.</button>
+        <button class="op" id="equals" value="=">=</button>
+      </div>
 
-				<div class="ops">
-					<button class="num">+</button>
-					<button class="num">-</button>
-					<button class="num">x</button>
-					<button class="num">/</button>
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="ops">
+        <button class="num" value="+">+</button>
+        <button class="num" value="-">-</button>
+        <button class="num" value="*">x</button>
+        <button class="num" value="/">/</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
 </body>
 </html>
